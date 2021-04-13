@@ -1,0 +1,30 @@
+<nav class="navbar navbar-light bg-light" style="background-color: #3f51b5 !important;">
+    <a class="navbar-brand" href="#">
+      
+    </a>
+  </nav>
+
+
+
+<div class="container">
+
+    <div class="row text-center">
+        <div class="col-md-12 col-12 mt-5">
+            <h5 class="text-center" id="titulo"> Contador </h5>
+        </div>
+    </div>
+
+
+
+    <div class="row text-center  mt-5">
+        <div class="col-md-12 col-12">
+            <button (click)=" numero = numero + 5; " class="btn btn-primary  bmd-btn-fab bmd-btn-fab-sm">
+                <i class="zmdi zmdi-plus"></i>
+            </button>
+
+            <span> {{ numero }} </span>
+                
+            <button (click)=" numero = numero - 5; "  class="btn btn-danger bmd-btn-fab bmd-btn-fab-sm">
+                <i class="zmdi zmdi-minus"></i>
+            </button>
+        </div>
